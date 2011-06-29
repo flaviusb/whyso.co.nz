@@ -1,4 +1,4 @@
-base = "http://byeloblog.net/"
+base = "http://whyso.co.nz/"
 style = dsyntax("Add style sheet link in place.",
   [location]
   ''(''link(rel: "stylesheet", type: "text/css", href: `location))

@@ -39,10 +39,12 @@ h2 {
 }
 nav ul {
   ^listStyleType :none,
-  ^textAlign :center
+  ^textAlign :center,
+  margin: "20px"
 }
 nav ul li {
-  ^marginRight "20px",
+  ^marginRight "10px",
+  ^marginLeft  "10px",
   display: :inline
 }
 nav ul li a | h1 a {

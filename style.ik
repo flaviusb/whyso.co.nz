@@ -16,13 +16,21 @@ $b {
   "-moz-border-radius" => "15px",
   "background-color" => "rgba(246,249,237, 0.5)"
 }
+$h {
+  width: "100%",
+  height: "100px",
+  "background-color" => "rgba(206,249,227, 0.25)"
+}
 h1 {
   ^fontFamily "Georgia, Times, sans-serif",
   ^fontSize   "200%"
 }
 nav {
   ^fontFamily     "Verdana, serif",
-  ^marginBottom   "1.75em"
+  ^marginBottom   "1.75em",
+  "border-radius" => "3px",
+  "-moz-border-radius" => "3px",
+  "background-color" => "rgba(246,249,237, 0.5)"
 }
 h2 {
   ^paddingTop  "0.75em"

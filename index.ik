@@ -14,6 +14,7 @@ html(xmlns: "http://www.w3.org/1999/xhtml", lang: "en") (head
   link(rel: "shortcut icon", href: "#{`base}qq.png", type: "image/png")
   `rem(''link(href: "#{`base}atom.xml", type: "application/atom+xml", rel: "alternate", title: "Blog Atom Feed")))
   (body
-    ("#{`data[:header]}")
-    (nav "#{`data[:nav]}")
+    (div(class: "h")
+      ("#{`data[:header]}")
+      (nav "#{`data[:nav]}"))
     (div(class: "b") "#{`data[:body]}")))

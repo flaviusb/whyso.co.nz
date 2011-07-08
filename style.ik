@@ -18,7 +18,7 @@ $b {
 }
 $h {
   width: "100%",
-  height: "80px",
+  "min-height" => "90px",
   "background-color" => "rgba(206,209,227, 0.75)"
 }
 h1 {
@@ -40,7 +40,7 @@ h2 {
 nav ul {
   ^listStyleType :none,
   ^textAlign :center,
-  margin: "20px"
+  margin: "10px"
 }
 nav ul li {
   ^marginRight "10px",

@@ -18,10 +18,8 @@ $b {
 }
 $h {
   width: "100%",
-  height: "100px",
-  "background-color" => "rgba(206,209,227, 0.75)",
-  ^marginRight "20px",
-  ^marginLeft "20px"
+  height: "80px",
+  "background-color" => "rgba(206,209,227, 0.75)"
 }
 h1 {
   ^fontFamily "Georgia, Times, sans-serif",
@@ -32,7 +30,9 @@ nav {
   ^marginBottom   "1.75em",
   "border-radius" => "3px",
   "-moz-border-radius" => "3px",
-  "background-color" => "rgba(246,249,237, 0.5)"
+  "background-color" => "rgba(246,249,237, 0.5)",
+  ^marginRight "20px",
+  ^marginLeft "20px"
 }
 h2 {
   ^paddingTop  "0.75em"

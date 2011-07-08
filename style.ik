@@ -31,10 +31,8 @@ nav {
   "border-radius" => "3px",
   "-moz-border-radius" => "3px",
   "background-color" => "rgba(246,249,237, 0.5)",
-  ^marginRight "20px",
-  ^marginLeft "20px",
-  width: "auto",
-  float: "left"
+  display: :table,
+  margin: "10px auto"
 }
 h2 {
   ^paddingTop  "0.75em"

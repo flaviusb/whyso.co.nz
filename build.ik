@@ -20,6 +20,21 @@ about_data = {
   body:     GenX fromMD("about.md"),
   modified: fileModified("about.md")
 }
+apps_data = {
+  title:    "Apps",
+  header:   header,
+  nav:      nav,
+  body:     GenX fromMD("apps.md"),
+  modified: fileModified("apps.md")
+}
+pt_data = {
+  title:    "PictureTags",
+  header:   header,
+  nav:      nav,
+  body:     GenX fromMD("picturetags.md"),
+  modified: fileModified("picturetags.md")
+}
+
 ; This context variable stops unneccesary shelling out when we don't care about a files modification date
 nomod = {
   modified: ""
@@ -30,6 +45,8 @@ GenX baseURI = "http://byeloblog.net/"
 GenX build(base: base,
   (index_data    => "index.html")         => "index.ik",
   (about_data    => "about.html")         => "index.ik",
+  (apps_data     => "apps.html")          => "index.ik",
+  (pt_data       => "picturetags.html")   => "index.ik",
   (nomod         => "reset.css")          => "reset.ik",
   (nomod         => "style.css")          => "style.ik")
 GenX deployRaw(base: base,

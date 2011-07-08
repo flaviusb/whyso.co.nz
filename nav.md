@@ -1,2 +1,3 @@
 - [About](http://whyso.co.nz/about "About the company")
+- [Apps](http://whyso.co.nz/apps "Android Apps")
 - [Open Source](https://github.com/flaviusb/ "The Source")

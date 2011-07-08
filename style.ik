@@ -33,7 +33,8 @@ nav {
   "background-color" => "rgba(246,249,237, 0.5)",
   ^marginRight "20px",
   ^marginLeft "20px",
-  width: "auto"
+  width: "auto",
+  float: "left"
 }
 h2 {
   ^paddingTop  "0.75em"

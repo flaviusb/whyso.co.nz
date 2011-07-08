@@ -51,5 +51,6 @@ GenX build(base: base,
   (nomod         => "style.css")          => "style.ik")
 GenX deployRaw(base: base,
   "qq.png",
-  "google5b823ca43536a9b1.html")
+  "google5b823ca43536a9b1.html",
+  "picturetagsimage.png")
 GenX sitemap(base: base)

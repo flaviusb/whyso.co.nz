@@ -19,7 +19,9 @@ $b {
 $h {
   width: "100%",
   height: "100px",
-  "background-color" => "rgba(206,249,227, 0.25)"
+  "background-color" => "rgba(206,209,227, 0.75)",
+  ^marginRight "20px",
+  ^marginLeft "20px"
 }
 h1 {
   ^fontFamily "Georgia, Times, sans-serif",

@@ -27,7 +27,9 @@ $f | $u {
   "border-radius"      => "3px",
   "-moz-border-radius" => "3px",
   "text-align"         => "center",
-  "font-size"          => "80%"  
+  "font-size"          => "80%",
+  "float"              => "left",
+  "padding"            => "10px"
 }
 $f {
   "border"             => "2px solid #00FFFF",

@@ -22,10 +22,10 @@ $h {
   "background-color" => "rgba(206,209,227, 0.75)"
 }
 $f {
-  "width"            => "120px",
-  "height"           => "120px",
-  "border"           => "2px solid #1a2",
-  "background-color" => "rgba(5,100,40, 0.5)"  
+  "width"            => "140px",
+  "height"           => "140px",
+  "border"           => "2px solid #127",
+  "background-color" => "rgba(10,80,200, 0.5)"  
 }
 h1 {
   ^fontFamily "Georgia, Times, sans-serif",

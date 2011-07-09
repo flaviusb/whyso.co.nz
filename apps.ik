@@ -6,7 +6,4 @@
   div(class: "u")
   div(class: "u")
   div(class: "u e")
-  br
-  div
-  span
   p(class: "cl")) 

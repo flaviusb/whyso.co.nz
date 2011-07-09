@@ -22,10 +22,14 @@ $h {
   "background-color" => "rgba(206,209,227, 0.75)"
 }
 $f {
-  "width"            => "140px",
-  "height"           => "140px",
-  "border"           => "2px solid #00FFFF",
-  "background-color" => "rgba(167,250,247, 0.5)"  
+  "width"              => "180px",
+  "height"             => "180px",
+  "border"             => "2px solid #00FFFF",
+  "background-color"   => "rgba(167,250,247, 0.5)",
+  "border-radius"      => "3px",
+  "-moz-border-radius" => "3px",
+  "text-align"         => "center",
+  "font-size"          => "50%"  
 }
 h1 {
   ^fontFamily "Georgia, Times, sans-serif",

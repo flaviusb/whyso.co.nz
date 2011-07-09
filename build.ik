@@ -24,7 +24,7 @@ apps_data = {
   title:    "Apps",
   header:   header,
   nav:      nav,
-  body:     XML render(XML fromQuotedFile("apps.ik", context: XML mimic with(data: {})))
+  body:     XML render(XML fromQuotedFile("apps.ik", context: XML mimic with(data: {}))),
   modified: fileModified("apps.ik")
 }
 pt_data = {

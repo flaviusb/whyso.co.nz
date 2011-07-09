@@ -21,15 +21,21 @@ $h {
   "min-height" => "90px",
   "background-color" => "rgba(206,209,227, 0.75)"
 }
-$f {
+$f | $u {
   "width"              => "180px",
   "height"             => "180px",
-  "border"             => "2px solid #00FFFF",
-  "background-color"   => "rgba(167,250,247, 0.5)",
   "border-radius"      => "3px",
   "-moz-border-radius" => "3px",
   "text-align"         => "center",
   "font-size"          => "80%"  
+}
+$f {
+  "border"             => "2px solid #00FFFF",
+  "background-color"   => "rgba(167,250,247, 0.5)"
+}
+$u {
+  "border"             => "2px solid #11EEEE",
+  "background-color"   => "rgba(127,200,190, 0.25)"
 }
 h1 {
   ^fontFamily "Georgia, Times, sans-serif",

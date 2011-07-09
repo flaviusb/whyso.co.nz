@@ -45,7 +45,7 @@ $u {
   "border"             => "2px solid #11EEEE",
   "background-color"   => "rgba(127,200,190, 0.25)"
 }
-$f a | $u {
+a $f | $u {
   margin: "12px"
 }
 h1 {

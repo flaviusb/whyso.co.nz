@@ -25,7 +25,7 @@ apps_data = {
   header:   header,
   nav:      nav,
   body:     XML render(XML fromQuotedFile("apps.ik", context: XML mimic with(data: {})))
-  modified: fileModified("apps.md")
+  modified: fileModified("apps.ik")
 }
 pt_data = {
   title:    "PictureTags",

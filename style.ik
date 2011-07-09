@@ -29,7 +29,7 @@ $f {
   "border-radius"      => "3px",
   "-moz-border-radius" => "3px",
   "text-align"         => "center",
-  "font-size"          => "50%"  
+  "font-size"          => "80%"  
 }
 h1 {
   ^fontFamily "Georgia, Times, sans-serif",
@@ -57,7 +57,7 @@ nav ul li {
   ^marginLeft  "10px",
   display: :inline
 }
-nav ul li a | h1 a {
+nav ul li a | h1 a | $q {
   ^textDecoration :none,
   color: :black
 }

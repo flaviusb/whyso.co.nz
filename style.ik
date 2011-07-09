@@ -24,8 +24,8 @@ $h {
 $f {
   "width"            => "140px",
   "height"           => "140px",
-  "border"           => "2px solid #127",
-  "background-color" => "rgba(10,80,200, 0.5)"  
+  "border"           => "2px solid #00FFFF",
+  "background-color" => "rgba(167,250,247, 0.5)"  
 }
 h1 {
   ^fontFamily "Georgia, Times, sans-serif",

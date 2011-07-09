@@ -9,4 +9,4 @@
   br
   div
   span
-  p) 
+  p(class: "cl")) 

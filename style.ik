@@ -34,6 +34,9 @@ $f | $u {
 $e {
   clear: "right"
 }
+$cl {
+  clear: "left"
+}
 $f {
   "border"             => "2px solid #00FFFF",
   "background-color"   => "rgba(167,250,247, 0.5)"

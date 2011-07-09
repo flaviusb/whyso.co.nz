@@ -24,7 +24,7 @@ apps_data = {
   title:    "Apps",
   header:   header,
   nav:      nav,
-  body:     GenX fromMD("apps.md"),
+  body:     XML render(XML fromQuotedFile("apps.ik", context: XML mimic with(data: {})))
   modified: fileModified("apps.md")
 }
 pt_data = {

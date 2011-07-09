@@ -5,4 +5,5 @@
     "The advanced gallery application.")
   div(class: "u")
   div(class: "u")
-  div(class: "u")) 
+  div(class: "u e")
+  br) 

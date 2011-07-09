@@ -31,6 +31,9 @@ $f | $u {
   "float"              => "left",
   "padding"            => "10px"
 }
+$e {
+  clear: "right"
+}
 $f {
   "border"             => "2px solid #00FFFF",
   "background-color"   => "rgba(167,250,247, 0.5)"

@@ -1,1 +1,1 @@
-PictureTags is a gallery program that doesn't suck.
+PictureTags is a gallery program with a number of organisational features.

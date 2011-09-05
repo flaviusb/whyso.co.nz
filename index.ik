@@ -1,10 +1,10 @@
 base = "http://whyso.co.nz/"
 style = method("Add style sheet link in place.", location,
-  ''link(rel: "stylesheet", type: "text/css", href: `location)
+  ''link(rel: "stylesheet", type: "text/css", href: "#{`location}")
 )
 condcom = method("Conditionally comment some html, relative to a browser",
   browser, content,
-  ''("<!--[if #{`browser}]>\n". `content. "\n<![endif]-->"))
+  ''(("<!--[if #{`browser}]>\n"). `(content). "\n<![endif]-->"))
 ''(
 `doctype("xml")
 `doctype("xhtml")

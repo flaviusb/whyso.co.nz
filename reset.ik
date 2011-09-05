@@ -48,7 +48,7 @@ $ar{"text-align" => "right"}
 
 "/* Clear Floats */\n"
 
-".col-full:after" {content: ".", display: :block, height: "0", clear: :both, visibility: :hidden}
+".col-full:after" {content: #["."], display: :block, height: "0", clear: :both, visibility: :hidden}
 
 $fix {clear: :both, height: "1px", margin: "-1px 0 0", overflow: :hidden}
 

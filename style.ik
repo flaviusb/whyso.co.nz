@@ -96,6 +96,7 @@ $navigation {
   height: "30px",
   "-moz-border-radius-topleft" => "10px",
   "-webkit-border-top-left-radius" => "10px",
+  "border-top-left-radius" => "10px",
   "background-color" => "#121212",
   color: "#FFFFFF",
   padding: "10px 25px 10px 10px"
@@ -109,6 +110,8 @@ $sf {
   "-moz-border-radius-topright" => "10px",
   "-webkit-border-top-left-radius" => "10px",
   "-webkit-border-top-right-radius" => "10px",
+  "border-top-left-radius" => "10px",
+  "border-top-right-radius" => "10px",
   "background-color" => "#121212",
   "padding-top" => "10px",
   "padding-left" => "10px",
@@ -132,7 +135,7 @@ $sf {
   color: "#2B3E42",
   padding: "3px",
   width: "70px",
-  border: "2px solid #D5E1DD"
+  border: "2px solid #D5E1DD",
   "background-color" => "#F7F3E8",
   "margin-left" => "-5px",
   "vertical-align" => "middle"

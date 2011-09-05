@@ -58,7 +58,7 @@ $clear {
 	display: :block,
 	float: :none,
 	"font-size" => "0",
-	"list-style" => none,
+	"list-style" => :none,
 	margin: "0",
 	padding: "0",
 	overflow: :hidden,

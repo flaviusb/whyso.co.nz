@@ -124,7 +124,7 @@ $sf {
   "padding-left" => "10px",
   "padding-right" => "10px",
   width: "185px",
-  border: "2px solid #D5E1DD"
+  border: "2px solid #D5E1DD",
   "vertical-align" => "middle"
 }
 

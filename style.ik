@@ -151,4 +151,9 @@ $blob {
   "border-bottom-right-radius" => "10px",
   "margin-bottom" => "35px"
 }
+
+$blobp {
+  margin: "35px 0px 25px 25px",
+  color: "#FFF"
+}
 )

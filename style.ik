@@ -68,7 +68,7 @@ nav ul li a | $q {
 a:hover { ^textDecoration :underline, color: :blue }
 
 $container {
-    background: "url(images/bg.png)",
+    background: "url(bg.png)",
     "background-repeat" => "repeat-x",
     "background-position" => "0 0px",
     "background-color" => "#f8f8f8"

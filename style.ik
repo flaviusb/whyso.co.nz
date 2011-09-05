@@ -53,8 +53,7 @@ nav {
   "line-height" => "30px"
 }
 nav ul {
-  ^listStyleType :none,
-  ^textAlign :center
+  ^listStyleType :none
 }
 nav ul li {
   ^marginRight "10px",

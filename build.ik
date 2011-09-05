@@ -10,28 +10,32 @@ index_data = {
   title:    "Why So Limited?",
   header:   header,
   nav:      nav,
-  body:     GenX fromMD("index.md"),
+  blob:     GenX fromMD("index.md"),
+  rest:     "",
   modified: fileModified("index.md")
 }
 about_data = {
   title:    "About Why So Ltd",
   header:   header,
   nav:      nav,
-  body:     GenX fromMD("about.md"),
+  blob:     GenX fromMD("about.md"),
+  rest:     "",
   modified: fileModified("about.md")
 }
 apps_data = {
   title:    "Apps",
   header:   header,
   nav:      nav,
-  body:     XML render(XML fromQuotedFile("apps.ik", context: XML mimic with(data: {}))),
+  blob:     "Something something screenshots...",
+  rest:     XML render(XML fromQuotedFile("apps.ik", context: XML mimic with(data: {}))),
   modified: fileModified("apps.ik")
 }
 pt_data = {
   title:    "PictureTags",
   header:   header,
   nav:      nav,
-  body:     GenX fromMD("picturetags.md"),
+  blob:     GenX fromMD("picturetags.md"),
+  rest:     "Put multicolumn faq here",
   modified: fileModified("picturetags.md")
 }
 

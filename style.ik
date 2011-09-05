@@ -98,8 +98,7 @@ $navigation {
   "-webkit-border-top-left-radius" => "10px",
   "background-color" => "#121212",
   color: "#FFFFFF",
-  padding: "10px",
-  "padding-left" => "25px"
+  padding: "10px 25px 10px 10px"
 }
 
 "/* search form */\n"
@@ -120,9 +119,7 @@ $sf {
   height: "25px",
   "font-size" => "16px",
   color: "#F2583E",
-  padding: "3px",
-  "padding-left" => "10px",
-  "padding-right" => "10px",
+  padding: "3px 10px 3px 10px",
   width: "185px",
   border: "2px solid #D5E1DD",
   "vertical-align" => "middle"

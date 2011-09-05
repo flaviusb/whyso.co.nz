@@ -61,9 +61,15 @@ nav ul li {
   display: :inline
 }
 nav ul li a {
-  ^textDecoration :none
+  ^textDecoration :none,
+  color: "#EFEFEF"
 }
+
 a:hover { ^textDecoration :underline, color: :blue }
+
+nav ul li a:hover {
+  color: "#FFFFFF"
+}
 
 $container {
     background: "url(bg.png)",

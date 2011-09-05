@@ -61,9 +61,8 @@ nav ul li {
   ^marginLeft  "10px",
   display: :inline
 }
-nav ul li a | $q {
-  ^textDecoration :none,
-  color: :black
+nav ul li a {
+  ^textDecoration :none
 }
 a:hover { ^textDecoration :underline, color: :blue }
 

@@ -28,7 +28,7 @@ html(xmlns: "http://www.w3.org/1999/xhtml", lang: "en") (head
         div(class: "clear"))
     (div(class: "container_12") div(class: "grid_12") (
       `if(data[:slideshow] == nil,
-        ''(div(class: "blob") (div(class: "blobp") ("#{`data[:blob]}")) div(class: "clear")),
+        ''(div(class: "blob") (div(class: "prefix_1 grid_10 suffix_1") div(class: "blobp") ("#{`data[:blob]}")) div(class: "clear")),
         ''(div(class: "blob") (div(class: "grid_5") (div(class: "blobp") ("#{`data[:blob]}"))) (div(class: "grid_7") ("#{`data[:slideshow]}")) div(class: "clear"))
       )
     )))

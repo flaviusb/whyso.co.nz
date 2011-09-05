@@ -22,7 +22,7 @@ html(xmlns: "http://www.w3.org/1999/xhtml", lang: "en") (head
     (div(class: "container")
       (div(class: "container_12")
         (div(class: "grid_8") h1(class: "title t2") ("#{`data[:header]}"))
-        (div(class: "grid_4") div(class: "sf") form)
+        (div(class: "grid_4") div(class: "sf") (form(role: "search", onsubmit: "window.location.href = 'http://google.com/search?q=site%3Awhyso.co.nz%20' + document.getElementById('s').value; return false;") (input(type: "text", name: "s", id: "s")) (input(type: "submit", value: "Search"))))
         div(class: "clear")
         (div(class: "grid_12") (nav(class: "navigation") "#{`data[:nav]}"))
         div(class: "clear"))

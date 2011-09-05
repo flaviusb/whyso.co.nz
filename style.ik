@@ -117,7 +117,7 @@ $sf {
 }
 
 ".sf input[type=text]" {
-  height: => "25px",
+  height: "25px",
   "font-size" => "16px",
   color: "#F2583E",
   padding: "3px",

@@ -49,7 +49,12 @@ GenX build(base: base,
   (pt_data       => "picturetags.html")   => "index.ik",
   (nomod         => "reset.css")          => "reset.ik",
   (nomod         => "style.css")          => "style.ik")
+
 GenX deployRaw(base: base,
   "*.png",
   "google5b823ca43536a9b1.html")
+
+GenX deployRaw(base: "#{base}/css/",
+  "css/*.css")
+
 GenX sitemap(base: base)

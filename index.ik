@@ -26,6 +26,6 @@ html(xmlns: "http://www.w3.org/1999/xhtml", lang: "en") (head
         div(class: "clear")
         (div(class: "grid_12") (nav(class: "navigation") "#{`data[:nav]}"))
         div(class: "clear"))
-    (div(class: "container_12") div(class: "grid_12") (div(class: "blob") (div(class: "alpha grid_5") (div(class: "blobp") ("#{`data[:blob]}"))) div(class: "grid_7 omega") div(class: "clear"))))
+    (div(class: "container_12") div(class: "grid_12") (div(class: "blob") (div(class: "alpha grid_5") (div(class: "blobp") ("#{`data[:blob]}"))) (div(class: "grid_7 omega")) div(class: "clear"))))
     div(class: "clear")
     (div(class: "container_12", style: "margin-top:20px;") (div(class: "grid_8") "#{`data[:rest]}"))))

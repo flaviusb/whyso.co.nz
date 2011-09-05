@@ -141,6 +141,7 @@ $sf {
 
 $blob {
   "max-height" => "350px",
+  "min-height" => "75px",
   width: "100%",
   "background-color" => "#555",
   "-moz-border-radius-bottomleft" => "10px",

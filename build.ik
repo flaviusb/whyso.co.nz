@@ -52,9 +52,7 @@ GenX build(base: base,
 
 GenX deployRaw(base: base,
   "*.png",
-  "google5b823ca43536a9b1.html")
-
-GenX deployRaw(base: "#{base}/css/",
+  "google5b823ca43536a9b1.html",
   "css/*.css")
 
 GenX sitemap(base: base)

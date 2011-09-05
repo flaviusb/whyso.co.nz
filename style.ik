@@ -4,7 +4,7 @@
 ; ^ is `uncamel
 ; | is , 
 ''(
-$c | h1 {
+$c {
   display: :table,
   margin: "10px auto"
 }
@@ -61,7 +61,7 @@ nav ul li {
   ^marginLeft  "10px",
   display: :inline
 }
-nav ul li a | h1 a | $q {
+nav ul li a | $q {
   ^textDecoration :none,
   color: :black
 }

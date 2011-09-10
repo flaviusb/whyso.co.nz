@@ -183,5 +183,7 @@ $footer {
   height: "200px",
   position: "relative",
   color: "#444"
+  "background-color" => "#d5e1e9",
+  "border-top" => "6px solid #444"
 }
 )

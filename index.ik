@@ -20,17 +20,20 @@ html(xmlns: "http://www.w3.org/1999/xhtml", lang: "en") (head
   `rem(''link(href: "#{`base}atom.xml", type: "application/atom+xml", rel: "alternate", title: "Blog Atom Feed")))
   (body
     (div(class: "container")
-      (div(class: "container_12")
-        (div(class: "grid_8") h1(class: "title t2") ("#{`data[:header]}"))
-        (div(class: "grid_4") (form(class: "sf", role: "search", onsubmit: "window.location.href = 'http://google.com/search?q=site%3Awhyso.co.nz%20' + document.getElementById('s').value; return false;") (input(type: "text", name: "s", id: "s")) (input(type: "submit", value: "Search"))))
-        //(div(class: "clear"))
-        (div(class: "grid_12") (nav(class: "navigation") "#{`data[:nav]}"))
-        div(class: "clear"))
-    (div(class: "container_12") div(class: "grid_12") (
-      `if(data[:slideshow] == nil,
-        ''(div(class: "blob") (div(class: "prefix_1 grid_10 suffix_1") div(class: "blobp") ("#{`data[:blob]}")) div(class: "clear")),
-        ''(div(class: "blob") (div(class: "grid_5") (div(class: "blobp") ("#{`data[:blob]}"))) (div(class: "grid_7") ("#{`data[:slideshow]}")) div(class: "clear"))
-      )
-    )))
-    div(class: "clear")
-    (div(class: "container_12", style: "margin-top:20px;") (div(class: "grid_8") "#{`data[:rest]}"))))
+      (div(class: "top")
+        (div(class: "container_12")
+          (div(class: "grid_8") h1(class: "title t2") ("#{`data[:header]}"))
+          (div(class: "grid_4") (form(class: "sf", role: "search", onsubmit: "window.location.href = 'http://google.com/search?q=site%3Awhyso.co.nz%20' + document.getElementById('s').value; return false;") (input(type: "text", name: "s", id: "s")) (input(type: "submit", value: "Search"))))
+          //(div(class: "clear"))
+          (div(class: "grid_12") (nav(class: "navigation") "#{`data[:nav]}"))
+          div(class: "clear"))
+      (div(class: "container_12") div(class: "grid_12") (
+        `if(data[:slideshow] == nil,
+          ''(div(class: "blob") (div(class: "prefix_1 grid_10 suffix_1") div(class: "blobp") ("#{`data[:blob]}")) div(class: "clear")),
+          ''(div(class: "blob") (div(class: "grid_5") (div(class: "blobp") ("#{`data[:blob]}"))) (div(class: "grid_7") ("#{`data[:slideshow]}")) div(class: "clear"))
+        )
+      )))
+      div(class: "clear")
+      (div(class: "container_12", style: "margin-top:20px;") (div(class: "grid_8") "#{`data[:rest]}"))
+      div(class: "footergap"))
+    (div(class: "footer"))))

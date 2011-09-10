@@ -71,7 +71,7 @@ nav ul li a:hover {
   color: "#FFFFFF"
 }
 
-$container {
+$top {
     background: "url(bg.png)",
     "background-repeat" => "repeat-x",
     "background-position" => "0 0px",
@@ -162,5 +162,26 @@ $blob {
 $blobp {
   margin: "35px 0px 25px 25px",
   color: "#FFF"
+}
+
+html | body {
+  height: "100%"
+}
+
+$container {
+  "min-height" => "100%",
+  "margin-bottom" => "-200px",
+  position: "relative"
+}
+
+$footergap {
+  height: "200px",
+  clear: "both"
+}
+
+$footer {
+  height: "200px",
+  position: "relative",
+  color: "#444"
 }
 )

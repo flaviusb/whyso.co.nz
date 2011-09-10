@@ -3,6 +3,9 @@
 ; ? is (#)
 ; ^ is `uncamel
 ; | is , 
+
+footerBorder = 6
+footerHeight = 200
 ''(
 $c {
   display: :table,
@@ -170,20 +173,20 @@ html | body {
 
 $container {
   "min-height" => "100%",
-  "margin-bottom" => "-200px",
+  "margin-bottom" => "-#{`footerHeight + `footerBorder}px",
   position: "relative"
 }
 
 $footergap {
-  height: "200px",
+  height: "#{`footerHeight + `footerBorder}px",
   clear: "both"
 }
 
 $footer {
-  height: "200px",
+  height: "#{`footerHeight}px",
   position: "relative",
   color: "#444",
   "background-color" => "#d5e1e9",
-  "border-top" => "6px solid #444"
+  "border-top" => "#{`footerBorder}px solid #444"
 }
 )

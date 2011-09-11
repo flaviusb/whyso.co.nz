@@ -161,7 +161,6 @@ $blob {
 }
 
 $blobp {
-  margin: "35px 0px 25px 25px",
   color: "#FFF"
 }
 

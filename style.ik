@@ -147,7 +147,7 @@ $sf {
 }
 
 $blob {
-  "max-height" => "550px",
+  "max-height" => "580px",
   "min-height" => "75px",
   width: "100%",
   "background-color" => "#555",
@@ -192,8 +192,7 @@ $imgcont {
   margin: "15px",
   border: "3px solid #FFF",
   "margin-left" => "70px",
-  "box-shadow" => "1px 1px 1px #222",
-  position: "relative"
+  "box-shadow" => "1px 1px 1px #222"
 }
 
 $cont {
@@ -203,5 +202,9 @@ $cont {
 "#cs-buttons-coin-slider" {
     "margin-top" => "-10px",
     "margin-left" => "-50px"
+}
+
+$gallery {
+  position: "relative"
 }
 )

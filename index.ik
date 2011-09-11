@@ -37,7 +37,7 @@ html(xmlns: "http://www.w3.org/1999/xhtml", lang: "en") (head
       (div(class: "container_12") div(class: "grid_12") (
         `if(data[:slideshow] == nil,
           ''(div(class: "blob") (div(class: "prefix_1 grid_10 suffix_1") div(class: "blobp") ("#{`data[:blob]}")) div(class: "clear")),
-          ''(div(class: "blob") (div(class: "grid_5") (div(class: "blobp") ("#{`data[:blob]}"))) (div(class: "grid_7") (div(class: "gallery") 
+          ''(div(class: "blob") (div(class: "grid_4") (div(class: "blobp") ("#{`data[:blob]}"))) (div(class: "grid_8") (div(class: "gallery") 
               (div(id: "coin-slider", class: "imgcont") `makeimages(data[:slideshow])))) div(class: "clear"))
         )
       )))

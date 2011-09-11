@@ -191,7 +191,7 @@ $footer {
 $imgcont {
   margin: "15px",
   border: "3px solid #FFF",
-  "margin-left" => "70px",
+  "margin-left" => "10px",
   "box-shadow" => "1px 1px 1px #222"
 }
 
@@ -205,8 +205,8 @@ $cont {
 }
 
 $gallery {
-  width: "260px",
-  height: "410px"
+  width: "280px",
+  height: "450px"
 }
 
 $foo {

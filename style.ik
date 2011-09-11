@@ -70,6 +70,11 @@ nav ul li a {
 
 a:hover { ^textDecoration :underline, color: :blue }
 
+h2 a {
+  color: "black",
+  ^textDecoration :none
+}
+
 nav ul li a:hover {
   color: "#FFFFFF"
 }

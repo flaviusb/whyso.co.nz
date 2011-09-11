@@ -192,7 +192,8 @@ $imgcont {
   margin: "15px",
   border: "3px solid #FFF",
   "margin-left" => "70px",
-  "box-shadow" => "1px 1px 1px #222"
+  "box-shadow" => "1px 1px 1px #222",
+  position: "relative"
 }
 
 $cont {

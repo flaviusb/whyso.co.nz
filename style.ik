@@ -82,9 +82,8 @@ $top {
 }
 
 $title {
-  font: "2.5em Georgia,Times,Times New Roman,serif",
-  "font-size" => "28px",
-  "text-transform" :uppercase,
+  font: "28px Georgia,Times,Times New Roman,serif",
+  "text-transform" => "uppercase",
   "margin-bottom" => "20px",
   width: "450px",
   "word-spacing" => "0.2em"

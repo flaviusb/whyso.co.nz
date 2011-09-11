@@ -208,10 +208,4 @@ $gallery {
   width: "280px",
   height: "450px"
 }
-
-$foo {
-  position: "relative",
-  float: "left",
-  top: "0px"
-}
 )

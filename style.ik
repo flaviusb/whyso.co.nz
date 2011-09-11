@@ -207,6 +207,8 @@ $cont {
 $gallery {
   width: "260px",
   height: "410px",
-  display: "inline"
+  display: "inline",
+  position: "relative",
+  float: "left"
 }
 )

@@ -206,6 +206,7 @@ $cont {
 
 $gallery {
   width: "280px",
-  height: "450px"
+  height: "450px",
+  "margin-bottom" => "35px"
 }
 )

@@ -205,6 +205,8 @@ $cont {
 }
 
 $gallery {
-  position: "relative"
+  position: "relative",
+  width: "260px",
+  height: "410px"
 }
 )

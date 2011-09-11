@@ -161,6 +161,7 @@ $blob {
 }
 
 $blobp {
+  margin: "35px 0px 25px 25px",
   color: "#FFF"
 }
 
@@ -205,6 +206,7 @@ $cont {
 
 $gallery {
   width: "260px",
-  height: "410px"
+  height: "410px",
+  display: "inline"
 }
 )

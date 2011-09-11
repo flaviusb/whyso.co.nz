@@ -27,7 +27,7 @@ apps_data = {
   header:      header,
   nav:         nav,
   blob:        "Something something screenshots...",
-  screenshots: ["picturetags_screenshot_sightseeing.png", "picturetags_screenshot_sightseeing_edit.png", "picturetags_screenshot_sightseeing_menu.png", "picturetags_screenshot_starred.png", "picturetags_screenshot_starred2.png"],
+  slideshow: ["picturetags_screenshot_sightseeing.png", "picturetags_screenshot_sightseeing_edit.png", "picturetags_screenshot_sightseeing_menu.png", "picturetags_screenshot_starred.png", "picturetags_screenshot_starred2.png"],
   rest:        XML render(XML fromQuotedFile("apps.ik", context: XML mimic with(data: {}))),
   modified:    fileModified("apps.ik")
 }

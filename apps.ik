@@ -1,9 +1,8 @@
 ''(section
-  a(href: "http://whyso.co.nz/picturetags", class: "q") (div(class: "f")
-    img(src: "http://whyso.co.nz/picturetagsimage.png", alt: "PictureTags")
-    h2 "PictureTags"
-    "The advanced gallery application.")
-  div(class: "u")
-  div(class: "u")
-  div(class: "u e")
-  p(class: "cl")) 
+    (h2 a(href: "http://whyso.co.nz/picturetags") "PictureTags")
+    //img(src: "http://whyso.co.nz/picturetagsimage.png", alt: "PictureTags")
+    p "The advanced gallery application."
+    p "This gallery is made for quickly tagging photos, tagging other tags, browsing photos or tags, importing and exporting groups of photos and tags."
+    a(href: "http://whyso.co.nz/picturetags") "More details..."
+  hr
+    ) 

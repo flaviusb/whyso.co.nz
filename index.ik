@@ -20,8 +20,8 @@ html(xmlns: "http://www.w3.org/1999/xhtml", lang: "en") (head
   `style("#{`base}960.css")
   `style("#{`base}style.css")
   `style("#{`base}coin-slider-styles.css")
-  script(src: "http://code.jquery.com/jquery-1.2.2.min.js", type: "text/javascript")
-  script(src: "#{`base}coin-slider.min.js")
+  script(src: "http://code.jquery.com/jquery-1.4.2.min.js", type: "text/javascript")
+  script(src: "#{`base}coin-slider.min.js", type: "text/javascript")
   `condcom("IE 6", `style("#{`base}ie6.css"))
   `condcom("IE 7", `style("#{`base}ie7.css"))
   `rem(''link(href: "#{`base}atom.xml", type: "application/atom+xml", rel: "alternate", title: "Blog Atom Feed")))
@@ -47,7 +47,7 @@ html(xmlns: "http://www.w3.org/1999/xhtml", lang: "en") (head
     (div(class: "footer"))
     `(if(data[:slideshow] == nil,
       "",
-      '((script  "$(document).ready(function() {
+      '((script(type: "text/javascript")  "$(document).ready(function() {
           $('#coin-slider').coinslider({width: width: 280, height: 420, delay: 3000});
         });"))))
 ))

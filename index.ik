@@ -43,8 +43,7 @@ html(xmlns: "http://www.w3.org/1999/xhtml", lang: "en") (head
     (div(class: "footer"))
     `(if(data[:slideshow] == nil,
       "",
-      '(script
-        "$(document).ready(function() {
+      '((script  "$(document).ready(function() {
           $('#coin-slider').coinslider();
-        });")))
+        });"))))
 ))

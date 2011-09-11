@@ -5,6 +5,10 @@ style = method("Add style sheet link in place.", location,
 condcom = dmacro("Conditionally comment some html, relative to a browser",
   [>browser, content]
   ''(("<!--[if #{`browser}]>\n"). `content. "\n<![endif]-->"))
+makeimages = method("Take an array of image names, unroll them into a blob of image tags in the format coinslider expects.", images,
+  the_blob = (images flatMap(img, XML render(''(a(href: "#{`base}picturetags") (img(src: "#{`base}#{`img}", alt: "Picturetags in action", class: "cont")) (span "Picturetags in action")))))
+  ''("#{`the_blob}")
+)
 ''(
 `doctype("xml")
 `doctype("xhtml")
@@ -33,8 +37,8 @@ html(xmlns: "http://www.w3.org/1999/xhtml", lang: "en") (head
       (div(class: "container_12") div(class: "grid_12") (
         `if(data[:slideshow] == nil,
           ''(div(class: "blob") (div(class: "prefix_1 grid_10 suffix_1") div(class: "blobp") ("#{`data[:blob]}")) div(class: "clear")),
-          ''(div(class: "blob") (div(class: "grid_5") (div(class: "blobp") ("#{`data[:blob]}"))) (div(class: "grid_7") 
-              (div(id: "coin-slider", class: "imgcont") `(data[:slideshow] flatMap(img, XML render(''(a(href: "#{`base}picturetags") (img(src: "#{`img}", class: "cont", width: "240", height: "400")) (span "Picturetags in action")))))) div(class: "clear")))
+          ''(div(class: "blob") (div(class: "grid_5") (div(class: "blobp") ("#{`data[:blob]}"))) (div(class: "grid_7 omega") 
+              (div(id: "coin-slider", class: "imgcont") `makeimages(data[:slideshow])) div(class: "clear")))
         )
       )))
       div(class: "clear")

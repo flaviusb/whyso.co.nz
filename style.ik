@@ -189,4 +189,20 @@ $footer {
   "background-color" => "#d5e1e9",
   "border-top" => "#{`footerBorder}px solid #444"
 }
+
+$imgcont {
+  margin: "15px",
+  border: "3px solid #FFF",
+  "margin-left" => "70px",
+  "box-shadow" => "1px 1px 1px #222"
+}
+
+$cont {
+  display: "none"
+}
+
+"#cs-buttons-coin-slider" {
+    "margin-top" => "-10px",
+    "margin-left" => "-50px"
+}
 )

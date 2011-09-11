@@ -11,10 +11,13 @@ condcom = dmacro("Conditionally comment some html, relative to a browser",
 html(xmlns: "http://www.w3.org/1999/xhtml", lang: "en") (head
   (title "#{`data[:title]}")
   meta(charset: "utf-8")
+  link(rel: "shortcut icon", href: "#{`base}qq.png", type: "image/png")
   `style("#{`base}reset.css")
   `style("#{`base}960.css")
   `style("#{`base}style.css")
-  link(rel: "shortcut icon", href: "#{`base}qq.png", type: "image/png")
+  `style("#{`base}coin-slider-styles.css")
+  script(src: "http://code.jquery.com/jquery-1.6.3.min.js", type: "text/javascript")
+  script(src: "#{`base}/coin-slider.min.js")
   `condcom("IE 6", `style("#{`base}ie6.css"))
   `condcom("IE 7", `style("#{`base}ie7.css"))
   `rem(''link(href: "#{`base}atom.xml", type: "application/atom+xml", rel: "alternate", title: "Blog Atom Feed")))
@@ -30,7 +33,8 @@ html(xmlns: "http://www.w3.org/1999/xhtml", lang: "en") (head
       (div(class: "container_12") div(class: "grid_12") (
         `if(data[:slideshow] == nil,
           ''(div(class: "blob") (div(class: "prefix_1 grid_10 suffix_1") div(class: "blobp") ("#{`data[:blob]}")) div(class: "clear")),
-          ''(div(class: "blob") (div(class: "grid_5") (div(class: "blobp") ("#{`data[:blob]}"))) (div(class: "grid_7") ("#{`data[:slideshow]}")) div(class: "clear"))
+          ''(div(class: "blob") (div(class: "grid_5") (div(class: "blobp") ("#{`data[:blob]}"))) (div(class: "grid_7") 
+              (div(id: "coin-slider", class: "imgcont") `(data[:slideshow] flatMap(img, XML render(''(img(src: "#{`img}", class: "cont", width: "240", height: "400")))))) div(class: "clear")))
         )
       )))
       div(class: "clear")

@@ -58,6 +58,7 @@ GenX build(base: base,
 GenX deployRaw(base: base,
   "*.png",
   "google5b823ca43536a9b1.html",
-  "css/*.css")
+  "css/*.css",
+  "coin-slider.min.js")
 
 GenX sitemap(base: base)

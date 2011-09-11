@@ -40,4 +40,11 @@ html(xmlns: "http://www.w3.org/1999/xhtml", lang: "en") (head
       div(class: "clear")
       (div(class: "container_12", style: "margin-top:20px;") (div(class: "grid_8") "#{`data[:rest]}"))
       div(class: "footergap"))
-    (div(class: "footer"))))
+    (div(class: "footer"))
+    `(if(data[:slideshow] == nil,
+      "",
+      '(script
+        "$(document).ready(function() {
+          $('#coin-slider').coinslider();
+        });")))
+))

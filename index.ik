@@ -44,6 +44,6 @@ html(xmlns: "http://www.w3.org/1999/xhtml", lang: "en") (head
     `(if(data[:slideshow] == nil,
       "",
       '((script  "$(document).ready(function() {
-          $('#coin-slider').coinslider();
+          $('#coin-slider').coinslider({width: width: 280, height: 420, delay: 3000});
         });"))))
 ))

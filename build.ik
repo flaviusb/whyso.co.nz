@@ -59,6 +59,7 @@ GenX build(base: base,
   (about_data    => "about.html")         => "index.ik",
   (apps_data     => "apps.html")          => "index.ik",
   (pt_data       => "picturetags.html")   => "index.ik",
+  (oss_data      => "opensource.html")    => "index.ik",
   (nomod         => "reset.css")          => "reset.ik",
   (nomod         => "style.css")          => "style.ik")
 

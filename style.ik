@@ -5,7 +5,7 @@
 ; | is , 
 
 footerBorder = 6
-footerHeight = 200
+footerHeight = 60
 ''(
 $c {
   display: :table,

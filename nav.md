@@ -1,4 +1,4 @@
 - [About](http://whyso.co.nz/about "About the company")
 - [Apps](http://whyso.co.nz/apps "Android Apps")
 - [Blog](http://flaviusb.net/blog ":flaviusb's Blog")
-- [Open Source](http://flaviusb.net/opensource "Open Source Projects")
+- [Open Source](http://whyso.co.nz/opensource "Open Source Projects")

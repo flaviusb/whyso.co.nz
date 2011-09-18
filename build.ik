@@ -39,7 +39,14 @@ pt_data = {
   rest:     "Put multicolumn faq here",
   modified: fileModified("picturetags.md")
 }
-
+oss_data = {
+  title:    "Open Source Projects",
+  header:   header,
+  nav:      nav,
+  blob:     GenX fromMD("opensource.md"),
+  rest:     "",
+  modified: fileModified("opensource.md")
+}
 ; This context variable stops unneccesary shelling out when we don't care about a files modification date
 nomod = {
   modified: ""

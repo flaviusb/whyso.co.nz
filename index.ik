@@ -20,8 +20,10 @@ html(xmlns: "http://www.w3.org/1999/xhtml", lang: "en") (head
   `style("#{`base}960.css")
   `style("#{`base}style.css")
   `style("#{`base}coin-slider-styles.css")
-  script(src: "http://code.jquery.com/jquery-1.4.2.min.js", type: "text/javascript")
-  script(src: "#{`base}coin-slider.min.js", type: "text/javascript")
+  `(if(data[:slideshow] == nil,
+      '(""),
+      ''((script(src: "http://code.jquery.com/jquery-1.4.2.min.js", type: "text/javascript"))
+         (script(src: "#{`base}coin-slider.min.js", type: "text/javascript")))))
   `condcom("IE 6", `style("#{`base}ie6.css"))
   `condcom("IE 7", `style("#{`base}ie7.css"))
   `rem(''link(href: "#{`base}atom.xml", type: "application/atom+xml", rel: "alternate", title: "Blog Atom Feed")))

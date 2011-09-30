@@ -79,12 +79,17 @@ nav ul li a:hover {
   color: "#FFFFFF"
 }
 
-$top {
-    background: "url(bg.png)",
-    "background-repeat" => "repeat-x",
-    "background-position" => "0 0px",
-    "background-color" => "#f8f8f8"
-}
+; Needed at present for reasons of strict ordering
+".top {
+  background: #85b2d3; /* Old browsers */
+  background: -moz-linear-gradient(top, #85b2d3 0%, #2e72e8 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#85b2d3), color-stop(100%,#2e72e8)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #85b2d3 0%,#2e72e8 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #85b2d3 0%,#2e72e8 100%); /* Opera11.10+ */
+  background: -ms-linear-gradient(top, #85b2d3 0%,#2e72e8 100%); /* IE10+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#85b2d3', endColorstr='#2e72e8',GradientType=0 ); /* IE6-9 */
+  background: linear-gradient(top, #85b2d3 0%,#2e72e8 100%); /* W3C */
+}"
 
 $title {
   font: "28px Georgia,Times,Times New Roman,serif",

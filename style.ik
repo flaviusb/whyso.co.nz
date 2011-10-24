@@ -185,6 +185,8 @@ html | body {
 
 $container {
   "min-height" => "100%",
+  height: "100%",
+  zoom: "1",
   "margin-bottom" => "-#{`footerHeight + `footerBorder}px",
   position: "relative"
 }

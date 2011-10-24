@@ -6,7 +6,7 @@ condcom = dmacro("Conditionally comment some html, relative to a browser",
   [>browser, content]
   ''(("<!--[if #{`browser}]>\n"). `content. "\n<![endif]-->"))
 makeimages = method("Take an array of image names, unroll them into a blob of image tags in the format coinslider expects.", images,
-  the_blob = (images flatMap(img, XML render(''(a(href: "#{`base}picturetags") (img(src: "#{`base}#{`img}", alt: "Picturetags in action", class: "cont")) (span "PictureTags in action")))))
+  the_blob = (images flatMap(img, XML render(''(a(href: "#{`base}picturetags") (img(src: "#{`base}#{`img}", alt: "Picturetags in action", class: "cont")) //(span "PictureTags in action")))))
   ''("#{`the_blob}")
 )
 ''(

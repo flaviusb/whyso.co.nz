@@ -63,8 +63,12 @@ nav ul li {
   ^marginLeft  "10px",
   display: :inline
 }
-nav ul li a | $blob a {
+nav ul li a {
   ^textDecoration :none,
+  color: "#EFEFEF"
+}
+
+$blob a {
   color: "#EFEFEF"
 }
 

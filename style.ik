@@ -73,7 +73,8 @@ $blob a {
 }
 
 $blob ul {
-  ^listStyleType :disc
+  ^listStyleType :disc,
+  ^listStylePosition :inside
 }
 
 a:hover { ^textDecoration :underline, color: :blue }

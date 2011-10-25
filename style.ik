@@ -72,6 +72,10 @@ $blob a {
   color: "#EFEFEF"
 }
 
+$blob ul {
+  ^listStyleType :disc
+}
+
 a:hover { ^textDecoration :underline, color: :blue }
 
 h2 a {

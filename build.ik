@@ -36,7 +36,7 @@ pt_data = {
   header:   header,
   nav:      nav,
   blob:     GenX fromMD("picturetags.md"),
-  rest:     "Put multicolumn faq here",
+  rest:     GenX fromMD("picturetags-faq.md"),
   modified: fileModified("picturetags.md")
 }
 oss_data = {

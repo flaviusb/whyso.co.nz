@@ -4,12 +4,14 @@ Features
 --------
 
 - Tag tags as well as pictures
-- Different views for landscape and portrait orientation
 - Import and export your pictures and tags in a smart archive format
-- Basic smart tags - Recently Added, Recently Modified, Starred, Untagged
+- Basic smart tags: Recently Added, Recently Modified, Starred, Untagged
 - Fullscreen image view
+- Different views for landscape and portrait orientation
 - Custom shortcuts; make a shortcut straight to a tag
-- Fullscreen tag browsing: see the subtags, supertags and neighboor tags of a tag all at the same time.
+- Fullscreen tag browsing: see the subtags, supertags and neighboor tags of a tag all at the same time
+- Single tap an image to see its name in an overlay; tap again to turn this off
+- Search for tags both in app and in the Android integrated platform search
 
 
 Future Development
@@ -21,4 +23,3 @@ We are working on a number of new features for the next releases.
 - More smart tags
 - Image Deduplication
 - Mass move and edit of tags and images
-- Drag and drop support

@@ -2,3 +2,4 @@
 - [Apps](http://whyso.co.nz/apps "Android Apps")
 - [Blog](http://flaviusb.net/blog/whyso ":flaviusb's Blog")
 - [Open Source](http://whyso.co.nz/opensource "Open Source Projects")
+- [Contact Us](http://whyso.co.nz/contact "Contact Details")

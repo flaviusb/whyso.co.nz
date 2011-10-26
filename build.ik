@@ -47,6 +47,15 @@ oss_data = {
   rest:     "",
   modified: fileModified("opensource.md")
 }
+contact_data = {
+  title:    "Contact Us",
+  header:   header,
+  nav:      nav,
+  blob:     GenX fromMD("contact.md"),
+  rest:     "",
+  modified: fileModified("contact.md")
+}
+
 ; This context variable stops unneccesary shelling out when we don't care about a files modification date
 nomod = {
   modified: ""
@@ -60,6 +69,7 @@ GenX build(base: base,
   (apps_data     => "apps.html")          => "index.ik",
   (pt_data       => "picturetags.html")   => "index.ik",
   (oss_data      => "opensource.html")    => "index.ik",
+  (contact_data  => "contact.html")       => "index.ik",
   (nomod         => "reset.css")          => "reset.ik",
   (nomod         => "style.css")          => "style.ik")
 

@@ -9,7 +9,7 @@ Features
 - Fullscreen image view
 - Different views for landscape and portrait orientation
 - Custom shortcuts; make a shortcut straight to a tag
-- Fullscreen tag browsing: see the subtags, supertags and neighboor tags of a tag all at the same time
+- Fullscreen tag browsing: see the subtags, supertags and neighbour tags of a tag all at the same time
 - Single tap an image to see its name in an overlay; tap again to turn this off
 - Search for tags both in app and in the Android integrated platform search
 

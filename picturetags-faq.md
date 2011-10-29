@@ -21,4 +21,12 @@ Q: How do I make a shortcut straight to a tag
 
 A: Long press on a clear section of your Android Home Screen, select 'Shortcuts' from the add to home screen menu that will pop up, and select PictureTags. You will be taken to a list of tags. Press the one you want to create a shortcut to.
 
+Q: Can I import images from another app
+----------------------------------------
 
+A: Yes, but only if that app has the ability to send images to another app. Most image handling apps should, as this is the standard way that Android apps interoperate each other. To import the images, send them to PictureTags from within the other app.
+
+Q: Can I mass import images from other apps
+-------------------------------------------
+
+A: Yes, but only if that program has multiple selection and the 'send selected images to' functionality. For example, the default Android Gallery allows you to select multiple images or folders and then send them all to another app by entering selection mode, selecting the images that you want, pressing the menu button and choosing the 'Share' option, and then picking 'PictureTags' from the list of available apps to share with. Just as with importing, to do a mass import select all of the images you want to import from within the other app, and send them to PictureTags.

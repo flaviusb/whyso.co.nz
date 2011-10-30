@@ -45,7 +45,7 @@ $fl{float: :left}
 $fr{float: :right}
 $ac{"text-align" => "center"}
 $ar{"text-align" => "right"}
-$cntr{"margin-left" => "auto", "margin-right" => "auto", display: :block}
+$cntr{"padding-left" => "auto", "padding-right" => "auto", display: :block}
 
 "/* Clear Floats */\n"
 

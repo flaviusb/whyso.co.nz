@@ -1,3 +1,10 @@
+<a href="http://market.android.com/details?id=net.flaviusb.picturetags" class="cntr">
+  <img src="http://www.android.com/images/brand/60_avail_market_logo2.png"
+       alt="Available in Android Market" />
+</a>
+
+
+
 FAQ
 ===
 
@@ -30,3 +37,5 @@ Q: Can I mass import images from other apps
 -------------------------------------------
 
 A: Yes, but only if that program has multiple selection and the 'send selected images to' functionality. For example, the default Android Gallery allows you to select multiple images or folders and then send them all to another app by entering selection mode, selecting the images that you want, pressing the menu button and choosing the 'Share' option, and then picking 'PictureTags' from the list of available apps to share with. Just as with importing, to do a mass import select all of the images you want to import from within the other app, and send them to PictureTags.
+
+

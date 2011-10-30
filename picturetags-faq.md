@@ -1,5 +1,5 @@
 
-<a href="http://market.android.com/details?id=net.flaviusb.picturetags" ><img src="http://www.android.com/images/brand/60_avail_market_logo2.png" alt="Available in Android Market" class="cntr" /></a>
+<div class="cntr"><a href="http://market.android.com/details?id=net.flaviusb.picturetags" ><img src="http://www.android.com/images/brand/60_avail_market_logo2.png" alt="Available in Android Market" /></a></div>
 
 
 FAQ

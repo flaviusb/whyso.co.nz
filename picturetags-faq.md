@@ -15,6 +15,11 @@ Q: How do I tag a tag
 
 A: Select the tag to tag, and then press the menu key and select 'Edit Tag'. You will be taken to a new screen where you can create new tags and select existing tags to add to or remove from the image.
 
+Q: How do I search for tags inside PictureTags
+----------------------------------------------
+
+A: Just press the search button anywhere inside the app.
+
 Q: How do I search for tags outside of PictureTags
 --------------------------------------------------
 

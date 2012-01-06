@@ -10,29 +10,50 @@ index_data = {
   title:    "Why So Limited?",
   header:   header,
   nav:      nav,
-  body:     GenX fromMD("index.md"),
+  blob:     GenX fromMD("index.md"),
+  rest:     "",
   modified: fileModified("index.md")
 }
 about_data = {
   title:    "About Why So Ltd",
   header:   header,
   nav:      nav,
-  body:     GenX fromMD("about.md"),
+  blob:     GenX fromMD("about.md"),
+  rest:     "",
   modified: fileModified("about.md")
 }
 apps_data = {
-  title:    "Apps",
-  header:   header,
-  nav:      nav,
-  body:     XML render(XML fromQuotedFile("apps.ik", context: XML mimic with(data: {}))),
-  modified: fileModified("apps.ik")
+  title:       "Apps",
+  header:      header,
+  nav:         nav,
+  blob:        GenX fromMD("appblob.md"),
+  slideshow: ["picturetags_screenshot_sightseeing.png", "picturetags_screenshot_sightseeing_edit.png", "picturetags_screenshot_sightseeing_menu.png", "picturetags_screenshot_starred.png", "picturetags_screenshot_starred2.png"],
+  rest:        XML render(XML fromQuotedFile("apps.ik", context: XML mimic with(data: {}))),
+  modified:    fileModified("apps.ik")
 }
 pt_data = {
   title:    "PictureTags",
   header:   header,
   nav:      nav,
-  body:     GenX fromMD("picturetags.md"),
+  blob:     GenX fromMD("picturetags.md"),
+  rest:     GenX fromMD("picturetags-faq.md"),
   modified: fileModified("picturetags.md")
+}
+oss_data = {
+  title:    "Open Source Projects",
+  header:   header,
+  nav:      nav,
+  blob:     GenX fromMD("opensource.md"),
+  rest:     "",
+  modified: fileModified("opensource.md")
+}
+contact_data = {
+  title:    "Contact Us",
+  header:   header,
+  nav:      nav,
+  blob:     GenX fromMD("contact.md"),
+  rest:     "",
+  modified: fileModified("contact.md")
 }
 
 ; This context variable stops unneccesary shelling out when we don't care about a files modification date
@@ -47,9 +68,15 @@ GenX build(base: base,
   (about_data    => "about.html")         => "index.ik",
   (apps_data     => "apps.html")          => "index.ik",
   (pt_data       => "picturetags.html")   => "index.ik",
+  (oss_data      => "opensource.html")    => "index.ik",
+  (contact_data  => "contact.html")       => "index.ik",
   (nomod         => "reset.css")          => "reset.ik",
   (nomod         => "style.css")          => "style.ik")
+
 GenX deployRaw(base: base,
   "*.png",
-  "google5b823ca43536a9b1.html")
+  "google5b823ca43536a9b1.html",
+  "css/*.css",
+  "coin-slider.min.js")
+
 GenX sitemap(base: base)

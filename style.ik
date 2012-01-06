@@ -100,17 +100,14 @@ nav ul li a:hover {
   background: linear-gradient(top, #85b2d3 0%,#2e72e8 100%); /* W3C */
 }"
 
-$title {
+header h1 {
   font: "28px Georgia,Times,Times New Roman,serif",
   "margin-bottom" => "20px",
   width: "450px",
-  "word-spacing" => "0.2em"
-}
-
-$t2 {
+  "word-spacing" => "0.2em",
   "margin-top" => "20px"
 }
-$title a {
+header h1 a {
   "text-decoration" => :none,
   color: "#EFEFEF",
   "text-shadow" => "1px 1px 1px #222"

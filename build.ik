@@ -89,6 +89,7 @@ GenX build(base: "/var/www/whyso.co.nz/htdocs/newlook/",
   (pt_data       => "picturetags.html")   => "skeleton.ik",
   (oss_data      => "opensource.html")    => "skeleton.ik",
   (contact_data  => "contact.html")       => "skeleton.ik",
+  (nomod         => "reset.css")          => "reset.ik",  
   (nomod         => "skin.css")           => "skin.ik")
 
 GenX deployRaw(base: "/var/www/whyso.co.nz/htdocs/newlook/",

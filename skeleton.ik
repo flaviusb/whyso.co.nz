@@ -38,11 +38,11 @@ html(xmlns: "http://www.w3.org/1999/xhtml", lang: "en")
         (h1 a(href: "#{`base}") "Why So Limited?")
         (nav
           (ul(class: "ullinks")
-            li a(href: "#{`base}about")      "About"
-            li a(href: "#{`base}apps")       "Apps"
-            li a(href: "#{`base}blog")       "Blog"
-            li a(href: "#{`base}opensource") "Open Source"
-            li a(href: "#{`base}contact")    "Contact Us")
+            li a(href: "#{`base}about")                  "About"
+            li a(href: "#{`base}apps")                   "Apps"
+            li a(href: "http://flaviusb.net/blog/whyso") "Blog"
+            li a(href: "#{`base}opensource")             "Open Source"
+            li a(href: "#{`base}contact")                "Contact Us")
           (form(class: "sf", role: "search", onsubmit: "window.location.href = 'http://google.com/search?q=site%3Awhyso.co.nz%20' + document.getElementById('s').value; return false;") (input(type: "text", name: "s", id: "s")) (input(type: "submit", value: "Search")))
         ))
       (div(class: "clear") "")

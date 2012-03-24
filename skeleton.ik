@@ -13,7 +13,7 @@ guard = dsyntax("guard(a, b) = nothing if a is nil or \"\", otherwise b.",
   [>a, b]
   if((a != nil) && (a != ""),
     ''(''(`b)),
-   ''(("")))
+   ''(''("")))
 )
 ''(
 `doctype("xml")

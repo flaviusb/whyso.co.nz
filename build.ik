@@ -43,9 +43,9 @@ ptnew_data = {
   title:    "PictureTags",
   header:   header,
   nav:      nav,
-  blob:     GenX fromMD("picturetags.md"),
+  blob:     XML render(XML fromQuotedFile("picturetags.ik", context: XML mimic with(data: {}))),
   rest:     XML render(XML fromQuotedFile("picturetags-faq.ik", context: XML mimic with(data: {}))),
-  modified: fileModified("picturetags.md")
+  modified: fileModified("picturetags.ik")
 }
 oss_data = {
   title:    "Open Source Projects",

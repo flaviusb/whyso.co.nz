@@ -49,4 +49,16 @@ header h1 a {
   "text-shadow" => "1px 1px 1px #222"
 }
 
+section ul {
+  ^listStyleType :disc,
+  ^listStylePosition :inside
+}
+
+nav ul {
+  ^listStyleType :none
+}
+
+nav {
+  float: "right"
+}
 )

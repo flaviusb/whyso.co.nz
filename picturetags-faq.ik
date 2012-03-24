@@ -1,7 +1,7 @@
 box = method(title, text, class,
- ''(section(class: "#{`class}")
+ ''((section(class: "#{`class}")
      (h2 "#{`title}")
-     (p "#{`text}")))
+     (p "#{`text}"))))
 ''(section
     (a(href: "http://market.android.com/details?id=net.flaviusb.picturetags", class: "cntrlol") img(src: "http://www.android.com/images/brand/60_avail_market_logo2.png", alt: "Available in Android Market"))
     (h1 "Frequently Asked Questions")

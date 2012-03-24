@@ -80,3 +80,18 @@ GenX deployRaw(base: base,
   "coin-slider.min.js")
 
 GenX sitemap(base: base)
+
+; Build out the newlook site
+GenX build(base: "/var/www/whyso.co.nz/htdocs/newlook/",
+  (index_data    => "index.html")         => "skeleton.ik",
+  (about_data    => "about.html")         => "skeleton.ik",
+  (apps_data     => "apps.html")          => "skeleton.ik",
+  (pt_data       => "picturetags.html")   => "skeleton.ik",
+  (oss_data      => "opensource.html")    => "skeleton.ik",
+  (contact_data  => "contact.html")       => "skeleton.ik",
+  (nomod         => "skin.css")           => "skin.ik")
+
+GenX deployRaw(base: "/var/www/whyso.co.nz/htdocs/newlook/",
+  "*.png",
+  "css/*.css",
+  "coin-slider.min.js")

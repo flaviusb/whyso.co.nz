@@ -29,7 +29,7 @@ html(xmlns: "http://www.w3.org/1999/xhtml", lang: "en")
     (header
       (h1 a(href: "#{`base}") "Why So Limited?")
       (nav
-        (ul
+        (ul(class: "ul-links")
           li a(href: "#{`base}about")      "About"
           li a(href: "#{`base}apps")       "Apps"
           li a(href: "#{`base}blog")       "Blog"
@@ -37,8 +37,8 @@ html(xmlns: "http://www.w3.org/1999/xhtml", lang: "en")
           li a(href: "#{`base}contact")    "Contact Us")
         (form(class: "sf", role: "search", onsubmit: "window.location.href = 'http://google.com/search?q=site%3Awhyso.co.nz%20' + document.getElementById('s').value; return false;") (input(type: "text", name: "s", id: "s")) (input(type: "submit", value: "Search")))
       ))
-    (section)
-    (section)
+    (section(class: "blob"))
+    (section(class: "rest"))
     (footer
       (ul(class: "ul-links")
         li a(href: "#{`base}about")      "About"

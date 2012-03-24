@@ -1,8 +1,8 @@
 ''(
-  (section(class: "fl quarter")
+  (section(class: "fl quarter col")
     (h1 "PictureTags")
-    (p  "A new kind of gallery program for android devices, modelled around tags rather than albums or folders."))
-  (section(class: "fl smaller third")
+    (p(class: "bigger")  "A new kind of gallery program for android devices, modelled around tags rather than albums or folders."))
+  (section(class: "fl smaller third col")
     (h2 "Features")
     (ul
       (li "Tag tags as well as pictures")
@@ -14,7 +14,7 @@
       (li "Fullscreen tag browsing: see the subtags, supertags and neighbour tags of a tag all at the same time")
       (li "Single tap an image to see its name in an overlay; tap again to turn this off")
       (li "Search for tags both in app and in the Android integrated platform search")))
-  (section(class: "fl smaller third")
+  (section(class: "fl smaller third col")
     (h2 "Future Development")
     (p "We are working on a number of new features for the next releases.")
     (ul

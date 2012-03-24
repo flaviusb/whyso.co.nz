@@ -139,10 +139,17 @@ section h3 {
 $smaller {
   "font-size" => "80%"
 }
+$bigger {
+  "font-size" => "120%"
+}
 $third {
   "max-width" => "33%"
 }
 $quarter {
   "max-width" => "25%"
+}
+$col {
+  "margin-left"  => "10px",
+  "margin-right" => "10px"
 }
 )

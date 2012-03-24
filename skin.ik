@@ -23,6 +23,7 @@ $blob {
   "#{`sectionbg}",
   color: "#fafafa"
 }
+
 $rest {
   color:      "#000000",
   background: "#fafafa"
@@ -35,6 +36,13 @@ $blob | $rest {
   "border-radius"         => "10px",
   "margin"                => "20px",
   "padding"               => "80px"
+}
+
+$blob a {
+  color: "#fafafa"
+}
+$rest a {
+  color: "#000000"
 }
 
 header | footer {
@@ -80,6 +88,13 @@ $ullinks li {
   ^marginLeft  "10px",
   display: :inline
 }
+
+$ullinks li a {
+  ^textDecoration :none,
+  color: :black
+}
+
+a:hover { ^textDecoration :underline }
 
 "/* search form */\n"
 

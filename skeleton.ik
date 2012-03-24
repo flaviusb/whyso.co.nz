@@ -39,5 +39,10 @@ html(xmlns: "http://www.w3.org/1999/xhtml", lang: "en")
       ))
     (section)
     (section)
-    (footer)
+    (footer
+      (ul(class: "ul-links")
+        li a(href: "#{`base}about")      "About"
+        li a(href: "#{`base}toc")        "Terms and Conditions"
+        li a(href: "#{`base}privacy")    "Privacy Policy"
+        li a(href: "#{`base}contact")    "Contact Us"))
 ))

@@ -20,9 +20,11 @@ article {
 }
 
 $blob {
-  "#{`sectionbg}"
+  "#{`sectionbg}",
+  color: "#fafafa"
 }
 $rest {
+  color:      "#000000",
   background: "#fafafa"
 }
 

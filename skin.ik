@@ -45,7 +45,7 @@ header h1 {
 }
 header h1 a {
   "text-decoration" => :none,
-  color: "#EFEFEF",
+  color: "#000000",
   "text-shadow" => "1px 1px 1px #222"
 }
 

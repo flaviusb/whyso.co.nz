@@ -113,4 +113,15 @@ $sf {
   border:                    "2px solid #8a8b8a",
   "vertical-align"        => "middle"  
 }
+
+$lbox {
+  float: left,
+  width: "40%"
+}
+
+$rbox {
+  float: right,
+  width: "40%"
+}
+
 )

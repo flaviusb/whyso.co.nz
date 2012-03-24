@@ -29,7 +29,7 @@ html(xmlns: "http://www.w3.org/1999/xhtml", lang: "en")
     (header
       (h1 a(href: "#{`base}") "Why So Limited?")
       (nav
-        (ul(class: "ul-links")
+        (ul(class: "ullinks")
           li a(href: "#{`base}about")      "About"
           li a(href: "#{`base}apps")       "Apps"
           li a(href: "#{`base}blog")       "Blog"
@@ -40,7 +40,7 @@ html(xmlns: "http://www.w3.org/1999/xhtml", lang: "en")
     (section(class: "blob") "#{`data[:blob]}")
     (section(class: "rest") "#{`data[:rest]}")
     (footer
-      (ul(class: "ul-links")
+      (ul(class: "ullinks")
         li a(href: "#{`base}about")      "About"
         li a(href: "#{`base}toc")        "Terms and Conditions"
         li a(href: "#{`base}privacy")    "Privacy Policy"

@@ -61,4 +61,17 @@ nav ul {
 nav {
   float: "right"
 }
+
+$ullinks {
+  ^listStyleType :none
+  ^fontFamily     "Verdana, serif",
+  "line-height" => "30px",
+  "font-size"          => "80%"
+}
+
+$ullinks li {
+  ^marginRight "10px",
+  ^marginLeft  "10px",
+  display: :inline
+}
 )

@@ -14,8 +14,9 @@ bg = bggradient("e3e8ed", "c6ccda")
 sectionbg = bggradient("2d3648", "424e64")
 
 ''(
-body {
-  "#{`bg}"
+article {
+  "#{`bg}",
+  "min-height" => "100%"  
 }
 
 $blob {

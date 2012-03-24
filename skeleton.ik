@@ -26,25 +26,26 @@ html(xmlns: "http://www.w3.org/1999/xhtml", lang: "en")
         ''((script(src: "http://code.jquery.com/jquery-1.4.2.min.js", type: "text/javascript") " ")
            (script(src: "#{`base}coin-slider.min.js", type: "text/javascript") " ")))))
   (body
-    (header
-      (h1 a(href: "#{`base}") "Why So Limited?")
-      (nav
+    (article
+      (header
+        (h1 a(href: "#{`base}") "Why So Limited?")
+        (nav
+          (ul(class: "ullinks")
+            li a(href: "#{`base}about")      "About"
+            li a(href: "#{`base}apps")       "Apps"
+            li a(href: "#{`base}blog")       "Blog"
+            li a(href: "#{`base}opensource") "Open Source"
+            li a(href: "#{`base}contact")    "Contact Us")
+          (form(class: "sf", role: "search", onsubmit: "window.location.href = 'http://google.com/search?q=site%3Awhyso.co.nz%20' + document.getElementById('s').value; return false;") (input(type: "text", name: "s", id: "s")) (input(type: "submit", value: "Search")))
+        ))
+      (div(class: "clear") "")
+      (section(class: "blob") "#{`data[:blob]}")
+      (section(class: "rest") "#{`data[:rest]}")
+      (div(class: "clear") "")
+      (footer
         (ul(class: "ullinks")
           li a(href: "#{`base}about")      "About"
-          li a(href: "#{`base}apps")       "Apps"
-          li a(href: "#{`base}blog")       "Blog"
-          li a(href: "#{`base}opensource") "Open Source"
-          li a(href: "#{`base}contact")    "Contact Us")
-        (form(class: "sf", role: "search", onsubmit: "window.location.href = 'http://google.com/search?q=site%3Awhyso.co.nz%20' + document.getElementById('s').value; return false;") (input(type: "text", name: "s", id: "s")) (input(type: "submit", value: "Search")))
-      ))
-    (div(class: "clear") "")
-    (section(class: "blob") "#{`data[:blob]}")
-    (section(class: "rest") "#{`data[:rest]}")
-    (div(class: "clear") "")
-    (footer
-      (ul(class: "ullinks")
-        li a(href: "#{`base}about")      "About"
-        li a(href: "#{`base}toc")        "Terms and Conditions"
-        li a(href: "#{`base}privacy")    "Privacy Policy"
-        li a(href: "#{`base}contact")    "Contact Us"))
+          li a(href: "#{`base}toc")        "Terms and Conditions"
+          li a(href: "#{`base}privacy")    "Privacy Policy"
+          li a(href: "#{`base}contact")    "Contact Us"))
 ))

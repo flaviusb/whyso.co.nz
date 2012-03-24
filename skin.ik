@@ -115,12 +115,12 @@ $sf {
 }
 
 $lbox {
-  float: left,
+  float: "left",
   width: "40%"
 }
 
 $rbox {
-  float: right,
+  float: "right",
   width: "40%"
 }
 

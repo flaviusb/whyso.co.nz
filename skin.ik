@@ -36,12 +36,16 @@ html | body {
   height: "100%"
 }
 
+header {
+  "margin-bottom" => "20px",
+  "margin-top"    => "20px",
+  "line-height"   => "40px"
+}
+
 header h1 {
   font: "28px Georgia,Times,Times New Roman,serif",
-  "margin-bottom" => "20px",
-  width: "450px",
   "word-spacing" => "0.2em",
-  "margin-top" => "20px"
+  float: "left"
 }
 header h1 a {
   "text-decoration" => :none,
@@ -59,7 +63,8 @@ nav ul {
 }
 
 nav {
-  float: "right"
+  float: "right",
+  display: "inline"
 }
 
 $ullinks {

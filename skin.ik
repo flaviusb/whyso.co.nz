@@ -124,4 +124,16 @@ $rbox {
   width: "40%"
 }
 
+section h1 {
+  "font-size"     => "210%",
+  "margin-bottom" => "0.8em"
+}
+section h2 {
+  "font-size" => "180%",
+  "margin-bottom" => "0.6em"
+}
+section h3 {
+  "font-size" => "150%",
+  "margin-bottom" => "0.6em"  
+}
 )

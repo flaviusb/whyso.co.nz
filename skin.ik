@@ -83,7 +83,7 @@ $ullinks li {
 "/* search form */\n"
 
 $sf {
-  height: "40px",
+  height: "20px",
   "-moz-border-radius"    => "10px",
   "-webkit-border-radius" => "10px",
   "-o-border-radius"      => "10px",
@@ -92,14 +92,14 @@ $sf {
   
 }
 ".sf input[type=text]" {
-  height: "25px",
+  height: "16px",
   "font-size" => "16px",
-  color: "#FFFFFF",
-  padding: "3px 10px 3px 10px",
-  "vertical-align" => "middle"
+  background: "#FFFFFF",
+  "vertical-align" => "middle",
+  border: "none"
 }
 ".sf input[type=submit]" {
-  height: "36px",
+  height: "16px",
   "-moz-border-radius"    => "10px",
   "-webkit-border-radius" => "10px",
   "-o-border-radius"      => "10px",

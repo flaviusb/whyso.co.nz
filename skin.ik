@@ -136,4 +136,13 @@ section h3 {
   "font-size" => "150%",
   "margin-bottom" => "0.6em"  
 }
+$smaller {
+  "font-size" => "80%"
+}
+$third {
+  "max-width" => "33%"
+}
+$quarter {
+  "max-width" => "25%"
+}
 )

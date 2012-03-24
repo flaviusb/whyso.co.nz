@@ -34,7 +34,7 @@ $blob | $rest {
   "-o-border-radius"      => "10px",
   "border-radius"         => "10px",
   "margin"                => "20px",
-  "padding"               => "20px"
+  "padding"               => "80px"
 }
 
 header | footer {

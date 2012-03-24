@@ -12,18 +12,19 @@ makeimages = method("Take an array of image names, unroll them into a blob of im
 ''(
 `doctype("xml")
 `doctype("xhtml")
-html(xmlns: "http://www.w3.org/1999/xhtml", lang: "en") (head
-  (title "#{`data[:title]}")
-  meta(charset: "utf-8")
-  link(rel: "shortcut icon", href: "#{`base}qq.png", type: "image/png")
-  `style("#{`base}reset.css")
-  `style("#{`base}960.css")
-  `style("#{`base}style.css")
-  `style("#{`base}coin-slider-styles.css")
-  `(if(data[:slideshow] == nil,
-      '(""),
-      ''((script(src: "http://code.jquery.com/jquery-1.4.2.min.js", type: "text/javascript") " ")
-         (script(src: "#{`base}coin-slider.min.js", type: "text/javascript") " "))))
+html(xmlns: "http://www.w3.org/1999/xhtml", lang: "en") 
+  (head
+    (title "#{`data[:title]}")
+    meta(charset: "utf-8")
+    link(rel: "shortcut icon", href: "#{`base}qq.png", type: "image/png")
+    `style("#{`base}reset.css")
+    `style("#{`base}960.css")
+    `style("#{`base}skin.css")
+    `style("#{`base}coin-slider-styles.css")
+    `(if(data[:slideshow] == nil,
+        '(""),
+        ''((script(src: "http://code.jquery.com/jquery-1.4.2.min.js", type: "text/javascript") " ")
+           (script(src: "#{`base}coin-slider.min.js", type: "text/javascript") " ")))))
   (body
     (header
       h1 a(href: "#{`base}") "Why So Limited?"

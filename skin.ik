@@ -94,7 +94,7 @@ $ullinks li a {
   color: :black
 }
 
-a:hover { ^textDecoration :underline }
+$ullinks li a:hover { ^textDecoration :underline }
 
 "/* search form */\n"
 

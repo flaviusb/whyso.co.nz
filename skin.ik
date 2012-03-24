@@ -32,10 +32,6 @@ section {
   "border-radius"         => "10px"
 }
 
-html | body {
-  height: "100%"
-}
-
 header {
   "margin-bottom" => "20px",
   "margin-top"    => "20px",

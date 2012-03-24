@@ -79,4 +79,31 @@ $ullinks li {
   ^marginLeft  "10px",
   display: :inline
 }
+
+"/* search form */\n"
+
+$sf {
+  height: "40px",
+  "-moz-border-radius"    => "10px",
+  "-webkit-border-radius" => "10px",
+  "-o-border-radius"      => "10px",
+  "border-radius"         => "10px",
+  border:                    "2px solid #8a8b8a",
+  
+}
+".sf input[type=text]" {
+  height: "25px",
+  "font-size" => "16px",
+  color: "#FFFFFF",
+  padding: "3px 10px 3px 10px",
+  "vertical-align" => "middle"
+}
+".sf input[type=submit]" {
+  height: "36px",
+  "-moz-border-radius"    => "10px",
+  "-webkit-border-radius" => "10px",
+  "-o-border-radius"      => "10px",
+  "border-radius"         => "10px",
+  border:                    "2px solid #8a8b8a"
+}
 )

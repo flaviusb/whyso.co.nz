@@ -27,7 +27,7 @@ html(xmlns: "http://www.w3.org/1999/xhtml", lang: "en")
            (script(src: "#{`base}coin-slider.min.js", type: "text/javascript") " ")))))
   (body
     (header
-      h1 a(href: "#{`base}") "Why So Limited?"
+      (h1 a(href: "#{`base}") "Why So Limited?")
       (nav
         (ul
           li a(href: "#{`base}about")      "About"

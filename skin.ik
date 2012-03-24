@@ -68,10 +68,11 @@ nav {
 }
 
 $ullinks {
-  ^listStyleType :none
-  ^fontFamily     "Verdana, serif",
+  ^listStyleType   :none
+  ^fontFamily      "Verdana, serif",
   "line-height" => "30px",
-  "font-size"          => "80%"
+  "font-size"   => "80%",
+  display:         :inline
 }
 
 $ullinks li {

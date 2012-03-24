@@ -28,17 +28,18 @@ $rest {
   background: "#fafafa"
 }
 
-section {
+$blob | $rest {
   "-moz-border-radius"    => "10px",
   "-webkit-border-radius" => "10px",
   "-o-border-radius"      => "10px",
-  "border-radius"         => "10px"
+  "border-radius"         => "10px",
+  "margin"                => "20px",
+  "padding"               => "20px"
 }
 
-header {
-  "margin-bottom" => "20px",
-  "margin-top"    => "20px",
-  "line-height"   => "40px"
+header | footer {
+  "margin"      => "20px",
+  "line-height" => "40px"
 }
 
 header h1 {

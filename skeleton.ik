@@ -27,6 +27,7 @@ html(xmlns: "http://www.w3.org/1999/xhtml", lang: "en")
            (script(src: "#{`base}coin-slider.min.js", type: "text/javascript") " ")))))
   (body
     (article
+      (div(class: "clear") "")    
       (header
         (h1 a(href: "#{`base}") "Why So Limited?")
         (nav
@@ -40,6 +41,7 @@ html(xmlns: "http://www.w3.org/1999/xhtml", lang: "en")
         ))
       (div(class: "clear") "")
       (section(class: "blob") "#{`data[:blob]}")
+      (div(class: "clear") "")      
       (section(class: "rest") "#{`data[:rest]}")
       (div(class: "clear") "")
       (footer
@@ -48,4 +50,5 @@ html(xmlns: "http://www.w3.org/1999/xhtml", lang: "en")
           li a(href: "#{`base}toc")        "Terms and Conditions"
           li a(href: "#{`base}privacy")    "Privacy Policy"
           li a(href: "#{`base}contact")    "Contact Us"))
+      (div(class: "clear") "")          
 )))

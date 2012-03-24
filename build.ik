@@ -39,6 +39,14 @@ pt_data = {
   rest:     GenX fromMD("picturetags-faq.md"),
   modified: fileModified("picturetags.md")
 }
+ptnew_data = {
+  title:    "PictureTags",
+  header:   header,
+  nav:      nav,
+  blob:     GenX fromMD("picturetags.md"),
+  rest:     XML render(XML fromQuotedFile("picturetags-faq.ik", context: XML mimic with(data: {}))),
+  modified: fileModified("picturetags.md")
+}
 oss_data = {
   title:    "Open Source Projects",
   header:   header,
@@ -86,7 +94,7 @@ GenX build(base: "/var/www/whyso.co.nz/htdocs/newlook/",
   (index_data    => "index.html")         => "skeleton.ik",
   (about_data    => "about.html")         => "skeleton.ik",
   (apps_data     => "apps.html")          => "skeleton.ik",
-  (pt_data       => "picturetags.html")   => "skeleton.ik",
+  (ptnew_data    => "picturetags.html")   => "skeleton.ik",
   (oss_data      => "opensource.html")    => "skeleton.ik",
   (contact_data  => "contact.html")       => "skeleton.ik",
   (nomod         => "reset.css")          => "reset.ik",  

@@ -9,6 +9,12 @@ makeimages = method("Take an array of image names, unroll them into a blob of im
   the_blob = (images flatMap(img, XML render(''(a(href: "#{`base}picturetags") (img(src: "#{`base}#{`img}", alt: "Picturetags in action", class: "cont")) //(span "PictureTags in action")))))
   ''("#{`the_blob}")
 )
+guard = dsyntax("guard(a, b) = nothing if a is nil or \"\", otherwise b.",
+  [>a, b]
+  if((a != nil) && (a != ""),
+    ''(''(`b)),
+   ''(""))
+)
 ''(
 `doctype("xml")
 `doctype("xhtml")
@@ -40,13 +46,15 @@ html(xmlns: "http://www.w3.org/1999/xhtml", lang: "en")
           (form(class: "sf", role: "search", onsubmit: "window.location.href = 'http://google.com/search?q=site%3Awhyso.co.nz%20' + document.getElementById('s').value; return false;") (input(type: "text", name: "s", id: "s")) (input(type: "submit", value: "Search")))
         ))
       (div(class: "clear") "")
-      (section(class: "blob") 
-        ("#{`data[:blob]}")
-        (div(class: "clear") ""))
+      `guard(data[:blob],
+        (section(class: "blob") 
+          ("#{`data[:blob]}")
+          (div(class: "clear") "")))
       (div(class: "clear") "")      
-      (section(class: "rest")
-        ("#{`data[:rest]}")
-        (div(class: "clear") ""))
+      `guard(data[:rest],
+        (section(class: "rest")
+          ("#{`data[:rest]}")
+        (div(class: "clear") "")))
       (div(class: "clear") "")
       (footer
         (ul(class: "ullinks")

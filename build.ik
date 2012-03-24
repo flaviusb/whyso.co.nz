@@ -62,7 +62,7 @@ nomod = {
 }
 base = "/var/www/whyso.co.nz/htdocs/"
 ;base = ""
-GenX baseURI = "http://byeloblog.net/"
+GenX baseURI = "http://whyso.co.nz/"
 GenX build(base: base,
   (index_data    => "index.html")         => "index.ik",
   (about_data    => "about.html")         => "index.ik",

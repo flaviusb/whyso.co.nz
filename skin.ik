@@ -18,7 +18,8 @@ article {
   "font-family" => #["HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif],
   "font-weight" => "300",
   "#{`bg}",
-  "min-height" => "100%"  
+  "min-height" => "100%",
+  overflow: :auto
 }
 
 $blob {

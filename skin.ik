@@ -116,6 +116,7 @@ $sf {
   "font-size" => "12px",
   background: "#FFFFFF",
   border: "none",
+  padding: "2px",
   "vertical-align" => "middle",
   "-moz-border-radius"    => "10px",
   "-webkit-border-radius" => "10px",
@@ -123,7 +124,9 @@ $sf {
   "border-radius"         => "10px"
 }
 ".sf input[type=submit]" {
-  height: "20px",
+  height: "18px",
+  padding: "2px",
+  "font-size" => "12px",
   "-moz-border-radius"    => "10px",
   "-webkit-border-radius" => "10px",
   "-o-border-radius"      => "10px",
